@@ -2,7 +2,14 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      zIndex: {
+        '-10': '-10',
+      },
+      backgroundImage: {
+        'blurbg': "url('./Media/blurbg.jpg')",
+      }
+    },
   },
   variants: {
     extend: {},

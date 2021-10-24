@@ -18,6 +18,9 @@ import HomeIcon from '@mui/icons-material/Home';
 import FastfoodIcon from '@mui/icons-material/Fastfood';
 import StoreIcon from '@mui/icons-material/Store';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Divider from '@mui/material/Divider';
+import treaturself from '../Media/treaturself.jpg';
+import slogan from '../Media/slogan.png';
 //#endregion
 
 function Home() {
@@ -28,12 +31,24 @@ function Home() {
     };
 
     return (
-        <div className='h-screen w-screen overflow-x-hidden overflow-y-scroll flex-col justify-center bg-gradient-to-r from-yellow-200 via-pink-100 to-yellow-100'>
-            {NavBar(value, handleChange)}
-            <div className=" flex justify-center my-12">
-                <Box className='w-10/12 sm:w-4/12 h-auto'>
-                    {InstagramStyledImgGroup()}
-                </Box>
+        <div className='overflow-x-hidden'>
+            <div className='h-screen w-screen flex-col justify-center bg-gradient-to-r from-yellow-200 via-pink-100 to-yellow-100'>
+                {NavBar(value, handleChange)}
+                <div className=" flex justify-center my-12">
+                    <Box className='w-10/12 sm:w-4/12 h-auto'>
+                        {InstagramStyledImgGroup()}
+                    </Box>
+                </div>
+            </div>
+            <div className='flex-col justify-center bg-gray-100'>
+                {AboutUsContent()}
+            </div>
+            <div className='block h-52 justify-center bg-black'>
+                <>
+                    <div className=''>
+                        
+                    </div>
+                </>
             </div>
         </div>
     );
@@ -41,10 +56,50 @@ function Home() {
 export default Home;
 
 
-
 //#region components
+function AboutUsContent() {
+    return (
+    <>
+        <br /><br />
+        <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
+            <Grid item xs={4} md={1} className='' />
+            <Grid item xs={4} md={10} className='text-center'>
+                <h3 className='text-3xl font-semibold'>WELCOME TO LITTLE VIET</h3>
+                <br />
+                <Divider />
+            </Grid>
+            <Grid item xs={4} md={1} className='' />
+        </Grid>
+        <br /><br /><br />
+        <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
+            <Grid item xs={4} md={1} className='' />
+            <Grid item xs={4} md={4} className='text-center'>
+                <img src={treaturself} className='p-0' alt="treaturself" className="w-80 h-auto" />
+            </Grid>
+            <Grid item xs={4} md={4} className=''>
+                <h3>We are Little Viet, a small bubble tea shop located at 104-2565 Portage Ave with a wide variety of drinks and desserts.
+                    We are excited to serve you our delicious and refreshing drinks, and thankful for all the feedback.
+                    <br /><br />
+                    With wide variety of drinks
+                    and easy customization from flavor adjustment, hot & cold, size to sugar level and topping, Little Viet is confident to give
+                    you the drink that both cheer you up and fulfill your craving.
+                    <br /><br />
+                    Bring your friends and love ones to Little Viet. They are sure to thank you for bringing them.
+                </h3>
+            </Grid>
+            <Grid item xs={4} md={1} className='' />
+        </Grid>
+
+        <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
+            <img src={slogan} className='p-0' alt="slogan" className="w-3/12 h-auto" />
+        </Grid>
+    </>
+    );
+}
+
 function NavBar(value, handleChange) {
-    return <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
+    return(
+    <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
         <Grid item xs={4} md={1} className='spacer' />
         <Grid item xs={4} md={3} className=''>
             <img src={logo} className='p-0' alt="logo" className="w-24 h-auto" />
@@ -55,8 +110,8 @@ function NavBar(value, handleChange) {
                 {NavBarMenu(value, handleChange)}
             </div>
         </Grid>
-        <Grid item xs={4} md={1} className='spacer' />
-    </Grid>;
+        <Grid item xs={4} md={1} className='spacer'/>
+    </Grid>);
 }
 
 function NavBarMenu(value, handleChange) {

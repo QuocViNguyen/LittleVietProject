@@ -1,0 +1,545 @@
+[
+    {
+      "DrinkType": "House Special Fruit Yogurt",
+      "SubTypes": 
+        [
+            {
+                "SubType": "Add bubble as a choice",
+                "Drinks": 
+                [
+                {
+                    "Name": "Special Purple Sticky Rice",
+                    "Price": "6.35"
+                },
+                {
+                    "Name": "Passionfruit Yogurt",
+                    "Price": "5.99"
+                },
+                {
+                    "Name": "Deep Blue Mango Yogurt",
+                    "Price": "6.35"
+                },
+                {
+                    "Name": "Lychee Yogurt",
+                    "Price": "6.10"
+                },
+                {
+                    "Name": "Mango Yogurt",
+                    "Price": "5.99"
+                },
+                {
+                    "Name": "Strawberry Yogurt",
+                    "Price": "5.99"
+                },
+                {
+                    "Name": "Peach Yogurt",
+                    "Price": "6.10"
+                }
+                ]
+            }
+        ]
+    },
+    {
+      "DrinkType": "Okinawa Brown Sugar Fresh Milk",
+      "SubTypes":
+      [
+          {
+            "SubType": "Bubble added",
+            "Drinks": 
+            [
+              {
+                "Name": "Okinawa Brown Sugar",
+                "Price": "5.99"
+              },
+              {
+                "Name": "Okinawa Oreo",
+                "Price": "6.20"
+              },
+              {
+                "Name": "Okinawa Milo",
+                "Price": "6.20"
+              },
+              {
+                "Name": "Okinawa Coffee",
+                "Price": "6.20"
+              },
+              {
+                "Name": "Okinawa Taro",
+                "Price": "6.20"
+              },
+              {
+                "Name": "Okinawa Matcha",
+                "Price": "6.35"
+              }
+            ]
+          }
+      ]
+    },
+    {
+        "DrinkType": "Fresh Brewed Milk Tea",
+        "SubTypes":
+        [
+            {
+                "SubType": "Bubble added",
+                "Drinks": 
+                [
+                  {
+                    "Name": "Signature Oolong Milk Tea",
+                    "Price": "6.25"
+                  },
+                  {
+                    "Name": "Vanilla Rooibos Milk Tea",
+                    "Price": "5.99"
+                  },
+                  {
+                    "Name": "Peach Milk Tea",
+                    "Price": "6.25"
+                  },
+                  {
+                    "Name": "Thai Milk Tea",
+                    "Price": "5.30"
+                  }
+                ]
+            },
+            {
+                "SubType": "Mix and Match Your Own Tea",
+                "Drinks": 
+                [
+                  {
+                    "Name": "Jasmine Green Milk Tea",
+                    "Price": "5.30"
+                  },
+                  {
+                    "Name": "High Mountain Milk Tea",
+                    "Price": "5.30"
+                  },
+                  {
+                    "Name": "Original Black Milk Tea",
+                    "Price": "5.30"
+                  },
+                  {
+                    "Name": "Oolong Milk Tea",
+                    "Price": "5.30"
+                  }
+                ]
+            },
+            {
+                "SubType": "Add Flavour",
+                "Type": "flavour",
+                "Price": "0.85",
+                "Items": 
+                [
+                  {
+                    "Name": "Coffee",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Chocolate",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Mango",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Coconut",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Honey",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Caramel",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Strawberry",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Pastel Blue Mint",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Taro",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Milo",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Lychee",
+                    "Price": "0.85"
+                  },
+                  {
+                    "Name": "Oreo",
+                    "Price": "0.85"
+                  }
+                ] 
+            }
+        ]
+
+    },
+    {
+        "DrinkType": "Fusion Fruit Tea",
+        "SubTypes":
+        [
+            {
+              "SubType": "Add bubbles as a choice. Choose 1 between 3 tea bases: Jasmine, Green Tea, Black Tea, Mountain Tea",
+              "Drinks": 
+              [
+                {
+                  "Name": "Citrus Fruit Tea",
+                  "Price": "4.95"
+                },
+                {
+                  "Name": "PineappleFruit Tea",
+                  "Price": "4.85"
+                },
+                {
+                  "Name": "Strawberry Fruit Tea",
+                  "Price": "4.85"
+                },
+                {
+                  "Name": "Lychee Fruit Tea",
+                  "Price": "4.95"
+                },
+                {
+                  "Name": "Mango Fruit Tea",
+                  "Price": "4.85"
+                },
+                {
+                  "Name": "Honey Lemonade Fruit Tea",
+                  "Price": "4.85"
+                },
+                {
+                    "Name": "Peach Fruit Tea",
+                    "Price": "4.95"
+                }
+              ]
+            }
+        ]
+    },
+    {
+        "DrinkType": "Fruity Soda",
+        "SubTypes":
+        [
+            {
+              "SubType": "Add bubbles as a choice",
+              "Drinks": 
+              [
+                {
+                  "Name": "Deep Blue Ocean",
+                  "Price": "5.95"
+                },
+                {
+                  "Name": "Strawberry Soda",
+                  "Price": "5.10"
+                },
+                {
+                  "Name": "Lychee Soda",
+                  "Price": "5.20"
+                },
+                {
+                  "Name": "Mango Soda",
+                  "Price": "5.10"
+                },
+                {
+                  "Name": "Orange Cream Soda",
+                  "Price": "5.95"
+                },
+                {
+                  "Name": "Peach Soda",
+                  "Price": "5.20"
+                }
+              ]
+            }
+        ]
+    },
+    {
+        "DrinkType": "Fresh Brewed Iced Tea",
+        "SubTypes":
+        [
+            {
+              "SubType": "Add bubbles as a choice",
+              "Drinks": 
+              [
+                {
+                  "Name": "Honey Chia Seeds Jasmine Iced Tea",
+                  "Price": "5.10"
+                },
+                {
+                  "Name": "Jasmine Green Iced Tea",
+                  "Price": "4.95"
+                },
+                {
+                  "Name": "High Mountain Iced Tea",
+                  "Price": "4.95"
+                },
+                {
+                  "Name": "Black Iced Tea",
+                  "Price": "4.95"
+                },
+                {
+                  "Name": "Thai Iced Tea",
+                  "Price": "4.95"
+                },
+                {
+                  "Name": "Oolong Iced Tea",
+                  "Price": "4.95"
+                }
+              ]
+            }
+        ]
+    },
+    {
+        "DrinkType": "Fresh Fruit Iced Blended Boba",
+        "SubTypes":
+        [
+            {
+              "SubType": "Bubbles Added",
+              "Drinks": 
+              [
+                {
+                  "Name": "Avocado",
+                  "Price": "6.35"
+                }
+              ]
+            },
+            {
+                "SubType": "Young Coconut Series:",
+                "Drinks": 
+                [
+                  {
+                    "Name": "Fresh Coconut",
+                    "Price": "6.35"
+                  },
+                  {
+                    "Name": "Coconut Pandan",
+                    "Price": "6.85"
+                  },
+                  {
+                    "Name": "Coconut Strawberry",
+                    "Price": "6.85"
+                  },
+                  {
+                    "Name": "Coconut Mango",
+                    "Price": "6.85"
+                  },
+                  {
+                    "Name": "Coconut Reb Bean",
+                    "Price": "6.85"
+                  },
+                  {
+                    "Name": "Coconut Taro",
+                    "Price": "6.85"
+                  },
+                  {
+                    "Name": "Coconut Lychee",
+                    "Price": "6.85"
+                  },
+                  {
+                    "Name": "Coconut Pineaplle",
+                    "Price": "6.85"
+                  },
+                  {
+                    "Name": "Mango",
+                    "Price": "5.85"
+                  },
+                  {
+                    "Name": "Lychee",
+                    "Price": "6.95"
+                  },
+                  {
+                    "Name": "Corn",
+                    "Price": "5.85"
+                  },
+                  {
+                    "Name": "Pineapple",
+                    "Price": "5.85"
+                  },
+                  {
+                    "Name": "Peach Slush",
+                    "Price": "5.95"
+                  }
+                ]
+            },
+            {
+                "SubType": "Strawberry Series:",
+                "Drinks": 
+                [
+                  {
+                    "Name": "Strawberry",
+                    "Price": "4.85"
+                  },
+                  {
+                    "Name": "Strawberry Mango",
+                    "Price": "6.30"
+                  },
+                  {
+                    "Name": "Strawberry Banana",
+                    "Price": "6.30"
+                  },
+                  {
+                    "Name": "Strawberry Kiwi",
+                    "Price": "6.30"
+                  }
+                ]
+            }
+        ]
+    },
+    {
+        "DrinkType": "Classic Ice Blended Boba",
+        "SubTypes":
+        [
+            {
+              "SubType": "Bubble added",
+              "Drinks": 
+              [
+                {
+                  "Name": "Cookie and Cream",
+                  "Price": "5.95"
+                },
+                {
+                  "Name": "Taro Root",
+                  "Price": "5.45"
+                },
+                {
+                  "Name": "Cantaloupe",
+                  "Price": "5.45"
+                },
+                {
+                  "Name": "Honeydew",
+                  "Price": "5.45"
+                },
+                {
+                  "Name": "Kiwi",
+                  "Price": "5.45"
+                },
+                {
+                  "Name": "Matcha Slush",
+                  "Price": "5.50"
+                }
+              ]
+            },
+            {
+                "SubType": "Chocolate Series:",
+                "Drinks": 
+                [
+                  {
+                    "Name": "Chocolate",
+                    "Price": "5.50"
+                  },
+                  {
+                    "Name": "Choco Banana",
+                    "Price": "5.65"
+                  },
+                  {
+                    "Name": "Choco Marshmallow",
+                    "Price": "5.65"
+                  }
+                ]
+            }
+        ]
+    },
+    {
+        "DrinkType": "Salted Cloudy Cheese",
+        "SubTypes":
+        [
+            {
+              "SubType": "Add bubbles as a choice",
+              "Drinks": 
+              [
+                {
+                  "Name": "Black Tea",
+                  "Price": "5.80"
+                },
+                {
+                  "Name": "Mountain Tea",
+                  "Price": "5.80"
+                },
+                {
+                  "Name": "Green Tea",
+                  "Price": "5.80"
+                },
+                {
+                  "Name": "Red Thai",
+                  "Price": "5.80"
+                },
+                {
+                  "Name": "Green Thai",
+                  "Price": "5.80"
+                },
+                {
+                  "Name": "Oolong Tea",
+                  "Price": "5.80"
+                },
+                {
+                    "Name": "Caramel Creamy Milo",
+                    "Price": "6.10"
+                }
+              ]
+            }
+        ]
+    },
+    {
+        "DrinkType": "Vietnamese Coffee",
+        "SubTypes":
+        [
+            {
+              "SubType": "Add bubbles as a choice",
+              "Drinks": 
+              [
+                {
+                  "Name": "Traditional Viet Coffee (360ml)",
+                  "Price": "4.65"
+                }
+              ]
+            },
+            {
+                "SubType": "Ice Blended Viet Coffee Series",
+                "Drinks": 
+                [
+                  {
+                    "Name": "Iced Blended Coffee",
+                    "Price": "5.99"
+                  },
+                  {
+                    "Name": "Coffee and French Vanilla",
+                    "Price": "5.99"
+                  },
+                  {
+                    "Name": "Coffee Toffee",
+                    "Price": "6.10"
+                  },
+                  {
+                    "Name": "Cappuccino",
+                    "Price": "5.99"
+                  },
+                  {
+                    "Name": "Mocha",
+                    "Price": "5.99"
+                  }
+                ]
+            }
+        ]
+    },
+    {
+        "DrinkType": "Vietnamese Coffee",
+        "SubTypes":
+        [
+            {
+              "SubType": "Little Viet Dessert",
+              "Drinks": 
+              [
+                {
+                  "Name": "Halo Halo",
+                  "Price": "8.99"
+                }
+              ]
+            }
+        ]
+    }
+]

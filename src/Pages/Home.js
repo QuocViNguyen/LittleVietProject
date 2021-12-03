@@ -1,6 +1,6 @@
 //#region import
 import * as React from 'react';
-import { Box, Button } from '@material-ui/core';
+import { Box } from '@material-ui/core';
 import Grid from '@mui/material/Grid';
 import p1 from '../Media/p1.png';
 import p2 from '../Media/p2.png';
@@ -14,16 +14,10 @@ import p9 from '../Media/p9.png';
 import Divider from '@mui/material/Divider';
 import treaturself from '../Media/treaturself.jpg';
 import slogan from '../Media/slogan.png';
-import { NavBar } from '../Components/NavBar';
 //#endregion
 
-function Home() {
-    const [value, setValue] = React.useState(0);
-
-    const handleChange = (event, newValue) => {
-        setValue(newValue);
-    };
-
+function Home()
+{
     return (
         <div className='overflow-x-hidden'>
             <div className='h-screen w-screen flex-col justify-center bg-gradient-to-r from-yellow-200 via-pink-100 to-yellow-100'>
@@ -49,7 +43,8 @@ export default Home;
 
 
 //#region components
-function AboutUsContent() {
+function AboutUsContent()
+{
     return (
     <>
         <br /><br />
@@ -66,7 +61,7 @@ function AboutUsContent() {
         <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
             <Grid item xs={4} md={1} className='' />
             <Grid item xs={4} md={4} className='text-center'>
-                <img src={treaturself} className='p-0' alt="treaturself" className="w-80 h-auto" />
+                <img src={treaturself} alt="treaturself" className="p-0 w-80 h-auto"/>
             </Grid>
             <Grid item xs={4} md={4} className=''>
                 <h3>We are Little Viet, a small bubble tea shop located at 104-2565 Portage Ave with a wide variety of drinks and desserts.
@@ -83,13 +78,14 @@ function AboutUsContent() {
         </Grid>
 
         <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
-            <img src={slogan} className='p-0' alt="slogan" className="w-3/12 h-auto" />
+            <img src={slogan} alt="slogan" className="p-0 w-3/12 h-auto" />
         </Grid>
     </>
     );
 }
 
-function InstagramStyledImgGroup() {
+function InstagramStyledImgGroup()
+{
     return <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
         <Grid item xs={4} md={4} className=''>
             <img src={p1} className='p-0' alt="p1" />

@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Home from './Pages/Home';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { NavBar } from './Components/NavBar';
 import * as React from 'react';
+import { BrowserRouter as Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import Menu from './Pages/Menu';
 
 function App() {
   const [value, setValue] = React.useState(0);
@@ -14,12 +14,11 @@ function App() {
 
   return (
     <>
-  {NavBar(value, handleChange)}
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-        </Routes>
-      </Router>
+      {NavBar(value, handleChange)}
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/menu" exact element={<Menu/>} />
+      </Routes>
     </>
   );
 }

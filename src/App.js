@@ -1,28 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './Pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { NavBar } from './Components/NavBar';
+import * as React from 'react';
 
 function App() {
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event, newValue) => {
+      setValue(newValue);
+  };
+
   return (
     <>
-      <Home/>
+  {NavBar(value, handleChange)}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+        </Routes>
+      </Router>
     </>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 

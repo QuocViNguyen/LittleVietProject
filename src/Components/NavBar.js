@@ -34,14 +34,16 @@ function NavBarMenu(value, handleChange)
 {
     let navigate = useNavigate();
 
-    return <Tabs value={value} onChange={handleChange} aria-label="icon label tabs example">
+    return(
+    <Tabs value={value} onChange={handleChange} aria-label="icon label tabs example">
         <Tab icon={<HomeIcon />} label="HOME" onClick={()=> {
-            navigate("/");
+            navigate("/", { replace: true });
         }}/>
         <Tab icon={<FastfoodIcon />} label="DRINK" onClick={()=> {
-            navigate("/menu");
+            navigate("/menu", { replace: true });
         }}/>
         <Tab icon={<StoreIcon />} label="MERCHANDISE" />
         <Tab icon={<ShoppingCartIcon />} label="ORDER" />
-    </Tabs>;
+    </Tabs>)
+    ;
 }

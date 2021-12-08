@@ -527,11 +527,11 @@
         ]
     },
     {
-        "DrinkType": "Vietnamese Coffee",
+        "DrinkType": "Little Viet Dessert",
         "SubTypes":
         [
             {
-              "SubType": "Little Viet Dessert",
+              "SubType": "",
               "Drinks": 
               [
                 {

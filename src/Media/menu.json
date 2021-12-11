@@ -187,7 +187,7 @@
         "SubTypes":
         [
             {
-              "SubType": "Add bubbles as a choice. Choose 1 between 3 tea bases: Jasmine, Green Tea, Black Tea, Mountain Tea",
+              "SubType": "Add bubbles as a choice. Choose 1 between 3 tea bases: Jasmine/ Green Tea/ Black Tea/ Mountain Tea",
               "Drinks": 
               [
                 {

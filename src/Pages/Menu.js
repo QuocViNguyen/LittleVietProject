@@ -2,15 +2,15 @@ import * as React from 'react';
 import menu from "../Media/menu.json";
 import DrinkSection from '../Components/DrinkSection';
 import Grid from '@mui/material/Grid';
-
+import MenuBackGround from '../Media/menu-background.png';
 function Menu()
 {
     return (
-        <>
-            <Grid container rowSpacing={1} columnSpacing={5} className='pt-48'>
+        <div className='bg-menuImage '>
+            <Grid container rowSpacing={0} columnSpacing={1} className='pt-48 '>
                 {RenderDrinkSection(menu)}
             </Grid>
-        </>
+        </div>
     );
 }
 

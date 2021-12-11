@@ -4,8 +4,10 @@ import Drink from './Drink';
 function DrinkSection(props)
 {
     return ( 
-        <div className=' bg-gray-900 w-9/12'>
-            <p className='flex text-2xl font-bold bg-yellow-500'>{props.drinkTitle}</p>
+        <div className='  w-11/12'>
+            <div className=' text-center bg-yellow-500'>
+                <p className='py-4 mb-4 text-2xl font-bold'>{props.drinkTitle}</p>
+            </div>
             {RenderSubDrinkSection(props.subDrinkList)}
             <br/><br/><br/>
         </div>
@@ -21,12 +23,12 @@ function RenderSubDrinkSection(subDrinkList)
     {
         const subDrinkSection = subDrinkList[index];
         const subDrinkComponent = 
-            <div key={index}>
-                <p className='text-xl font-bold text-yellow-500'>{subDrinkSection.SubType}</p>
+            <div key={index} className='ml-16 mb-3'>
+                <p className='text-xl font-bold text-yellow-500 pb-2'>{subDrinkSection.SubType}</p>
                 {
                     (subDrinkSection.Drinks !== undefined) ? RenderDrinks(subDrinkSection.Drinks) : null
                 }
-            </div>;
+            </div>;   
         allSubDrinkSections.push(subDrinkComponent);
     }
     return allSubDrinkSections;

@@ -9,6 +9,7 @@ module.exports = {
       },
       backgroundImage: {
         'blurbg': "url('./Media/blurbg.jpg')",
+        'menuImage' : "url('./Media/menu-background.png')",
       }
     },
   },

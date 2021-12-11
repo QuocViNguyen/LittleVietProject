@@ -14,6 +14,7 @@ import p9 from '../Media/p9.png';
 import Divider from '@mui/material/Divider';
 import treaturself from '../Media/treaturself.jpg';
 import slogan from '../Media/slogan.png';
+import Footer from '../Components/Footer';
 //#endregion
 
 function Home()
@@ -22,7 +23,9 @@ function Home()
         <div className='overflow-x-hidden'>
             <div className='h-screen w-screen flex-col justify-center bg-gradient-to-r from-yellow-200 via-pink-100 to-yellow-100'>
                 <div className=" flex justify-center">
-                    <Box className='w-10/12 sm:w-4/12 h-auto my-40'>
+                    <Box className='w-10/12 sm:w-4/12 h-auto my-40 text-center'>
+                        <p className='font-normal text-xl'>❤️ EVERYTHING IS ABOUT TO BE EVER BETTER ❤️</p>
+                        <br/>
                         {InstagramStyledImgGroup()}
                     </Box>
                 </div>
@@ -30,12 +33,7 @@ function Home()
             <div className='flex-col justify-center bg-gray-100'>
                 {AboutUsContent()}
             </div>
-            <div className='block h-52 justify-center bg-black'>
-                <>
-                    <div className=''>
-                    </div>
-                </>
-            </div>
+            <Footer/>
         </div>
     );
 }

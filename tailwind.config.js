@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        'menu-bg': '#f9e4d2',
+      },
       zIndex: {
         '-10': '-10',
       },

@@ -26,18 +26,24 @@ function NavBarMenu()
     };
 
     let navigate = useNavigate();
+    
     return (
         <>
-        <Tabs value={value} onChange={handleChange} aria-label="icon label tabs example">
-            <Tab icon={<HomeIcon />} label="HOME" onClick={() => {
-                navigate("/");
-            } } />
-            <Tab icon={<FastfoodIcon />} label="DRINK" onClick={() => {
-                navigate("/menu");
-            } } />
-            <Tab icon={<StoreIcon />} label="MERCHANDISE" />
-            <Tab icon={<ShoppingCartIcon />} label="ORDER" />
-        </Tabs>
+            <Tabs value={value} onChange={handleChange} aria-label="icon label tabs example">
+                <Tab className='menu_tab' icon={<HomeIcon />} label="HOME" onClick={() =>
+                {
+                    navigate("/");
+                }} />
+                <Tab className='menu_tab' icon={<FastfoodIcon />} label="DRINK" onClick={() =>
+                {
+                    navigate("/menu");
+                }} />
+                <Tab className='menu_tab' icon={<StoreIcon />} label="MERCHANDISE" onClick={() =>
+                {
+                    navigate("/merchandise");
+                }}/>
+                <Tab className='menu_tab' icon={<ShoppingCartIcon />} label="ORDER" />
+            </Tabs>
         </>
     );
 }

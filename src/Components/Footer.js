@@ -2,7 +2,7 @@ import * as React from 'react';
 
 function Footer() {
     return (
-        <div className='block h-48 justify-center bg-black'>
+        <div className='object-none object-bottom h-40 bg-black'>
             <>
                 <div className=''>
                 </div>

@@ -10,7 +10,7 @@ function Merchandise() {
     return (
         <div className=' flex-col justify-center bg-gradient-to-r from-yellow-200 via-pink-100 to-yellow-100'>
 
-        <Grid container className='px-3.5 justify-items-center' rowSpacing={10} columnSpacing={0.3} alignItems="center">
+        <Grid container className='justify-items-center' rowSpacing={10} columnSpacing={0.3} alignItems="center">
             <Grid item xs={12} md={12} className='spacer text-center'>
                 <br/><br/><br/><br/><br/><br/>
                 <p className='font-normal text-2xl'>🎁 COME AND HAVE A LOOK AT OUR CUTE MERCHANDISES 🎁</p>

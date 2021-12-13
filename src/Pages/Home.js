@@ -24,7 +24,6 @@ function Home()
             <div className='flex-col justify-center bg-gray-100'>
                 {AboutUsContent()}
             </div>
-            {/* <Footer/> */}
         </div>
     );
 }

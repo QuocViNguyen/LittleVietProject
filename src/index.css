@@ -3,7 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body
+{
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,7 +13,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+code
+{
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
@@ -20,4 +22,16 @@ code {
 .menu_tab
 {
   font-weight: bold;
+}
+
+.online_store
+{
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.online_store:hover
+{
+  top: -10px;
 }

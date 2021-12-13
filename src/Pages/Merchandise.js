@@ -12,35 +12,35 @@ function Merchandise() {
             <Grid container className='justify-items-center' rowSpacing={10} columnSpacing={0.3} alignItems="center">
                 <Grid item xs={12} md={12} className='spacer text-center'>
                     <br/><br/><br/><br/><br/><br/>
-                    <p className='font-normal text-2xl'>🎁 COME AND HAVE A LOOK AT OUR CUTE MERCHANDISES 🎁</p>
+                    <p className='font-normal text-lg sm:text-2xl'>🎁 COME AND HAVE A LOOK AT OUR CUTE MERCHANDISES 🎁</p>
                 </Grid>
                 <Grid item xs={12} md={4} className='spacer text-center text-xl'>
                     <div className='flex justify-center'>
                         <img className="w-24 sm:w-64" alt="" src={bag} />
                         <img className="w-24 sm:w-64" alt="" src={rainbow_set} />
                     </div>
-                    <p className='pt-2'>Straw Kit (Rainbow Version) - $8.00</p>
+                    <p className='pt-2 text-sm sm:text-base'>Straw Kit (Rainbow Version) - $8.00</p>
                 </Grid>
                 <Grid item xs={12} md={4} className='spacer text-center text-xl'>
                     <div className='flex justify-center'>
                         <img className="w-24 sm:w-64" alt="" src={bag} />
                         <img className="w-24 sm:w-64" alt="" src={rose_gold} />
                     </div>
-                    <p className='pt-2'>Straw Kit (Rose Gold Version) - $8.00</p>
+                    <p className='pt-2 text-sm sm:text-base'>Straw Kit (Rose Gold Version) - $8.00</p>
                 </Grid>
                 <Grid item xs={12} md={4} className='spacer text-center text-xl'>
                     <div className='flex justify-center'>
                         <img className="w-24 sm:w-64" alt="" src={bag} />
                         <img className="w-24 sm:w-64" alt="" src={silver} />
                     </div>
-                    <p className='pt-2'>Straw Kit (Silver Version) - $7.50</p>
+                    <p className='pt-2 text-sm sm:text-base'>Straw Kit (Silver Version) - $7.50</p>
                 </Grid>
 
                 <Grid item xs={12} md={4} className='spacer text-center text-xl'>
                     <div className='flex justify-center'>
                         <img className="w-24 sm:w-64" alt="" src={cup}></img>
                     </div>
-                    <p className='pt-2'> Milk Tea Bottle - $3.00</p>
+                    <p className='pt-2 text-sm sm:text-base'> Milk Tea Bottle - $3.00</p>
                 </Grid>
             </Grid>
             <br/><br/><br/>

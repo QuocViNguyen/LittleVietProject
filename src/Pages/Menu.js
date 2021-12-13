@@ -13,7 +13,7 @@ function Menu()
             <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
             <Grid item xs={12} md={12} className='spacer text-center'>
                 <br/><br/><br/><br/><br/><br/>
-                <p className='font-semibold text-4xl'>SELECT FROM OUR MENU:</p>
+                <p className='font-semibold text-lg sm:text-4xl'>SELECT FROM OUR MENU:</p>
                 <br/><br/>
             </Grid>
             <Grid item xs={1} md={1} className='spacer'/>

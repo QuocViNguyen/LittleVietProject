@@ -29,20 +29,20 @@ function NavBarMenu()
     
     return (
         <>
-            <Tabs value={value} onChange={handleChange} aria-label="icon label tabs example">
-                <Tab className='menu_tab' icon={<HomeIcon />} label="HOME" onClick={() =>
+            <Tabs value={value} onChange={handleChange} aria-label="icon label tabs example" className='w-fit'>
+                <Tab className='menu_tab text-xs sm:text-base' icon={<HomeIcon className='h-4 sm:h-8'/>} label="HOME" onClick={() =>
                 {
                     navigate("/");
                 }} />
-                <Tab className='menu_tab' icon={<FastfoodIcon />} label="DRINK" onClick={() =>
+                <Tab className='menu_tab text-xs sm:text-base' icon={<FastfoodIcon className='h-4 sm:h-8'/>} label="DRINK" onClick={() =>
                 {
                     navigate("/menu");
                 }} />
-                <Tab className='menu_tab' icon={<StoreIcon />} label="MERCHANDISE" onClick={() =>
+                <Tab className='menu_tab text-xs sm:text-base' icon={<StoreIcon className='h-4 sm:h-8'/>} label="MERCHANDISE" onClick={() =>
                 {
                     navigate("/merchandise");
                 }}/>
-                <Tab className='menu_tab' icon={<ShoppingCartIcon />} label="ORDER" onClick={() =>
+                <Tab className='menu_tab text-xs sm:text-base' icon={<ShoppingCartIcon className='h-4 sm:h-8'/>} label="ORDER" onClick={() =>
                 {
                     navigate("/order");
                 }}/>

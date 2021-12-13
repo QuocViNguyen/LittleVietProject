@@ -10,9 +10,11 @@ import Footer from './Components/Footer';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <NavBar/>
-      <App />
-      <Footer/>
+      <div className='min-h-screen'>
+        <NavBar/>
+        <App />
+        <Footer/>
+      </div>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

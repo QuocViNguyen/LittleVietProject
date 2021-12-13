@@ -10,19 +10,19 @@ function Menu()
     return (
         <>
             <div className='bg-menu-bg'>
-            <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
-            <Grid item xs={12} md={12} className='spacer text-center'>
-                <br/><br/><br/><br/><br/><br/>
-                <p className='font-semibold text-lg sm:text-4xl'>SELECT FROM OUR MENU:</p>
-                <br/><br/>
-            </Grid>
-            <Grid item xs={1} md={1} className='spacer'/>
-            <Grid className='flex-col justify-center' item xs={10} md={10} className=''>
-                {RenderMenus()}
-            </Grid>
-            <Grid item xs={1} md={1} className='spacer'/>
-            </Grid>
-            <br/><br/><br/>
+                <Grid container rowSpacing={0.3} columnSpacing={0.3} justifyContent="center" alignItems="center">
+                    <Grid item xs={12} md={12} className='spacer text-center'>
+                        <br/><br/><br/><br/><br/><br/>
+                        <p className='font-semibold text-lg sm:text-4xl'>SELECT FROM OUR MENU:</p>
+                        <br/><br/>
+                    </Grid>
+                    <Grid item xs={1} md={1} className='spacer'/>
+                    <Grid className='flex-col justify-center' item xs={10} md={10} className=''>
+                        {RenderMenus()}
+                    </Grid>
+                    <Grid item xs={1} md={1} className='spacer'/>
+                </Grid>
+                <br/><br/><br/>
             </div>
         </>
     );

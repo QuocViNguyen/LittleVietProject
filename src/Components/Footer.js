@@ -4,11 +4,10 @@ import { Link } from '@material-ui/core';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import Divider from '@mui/material/Divider';
 
 function Footer() {
     return (
-        <div className='object-none object-bottom h-48 bg-black'>
+        <div className='h-44 bg-black '>
             <>
                 <Grid container className='justify-items-center text-white text-xs sm:text-base' rowSpacing={2} columnSpacing={2} alignItems="center">
                     <Grid item xs={12} md={4} className='spacer'/>

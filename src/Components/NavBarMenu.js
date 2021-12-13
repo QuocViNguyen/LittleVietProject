@@ -42,7 +42,10 @@ function NavBarMenu()
                 {
                     navigate("/merchandise");
                 }}/>
-                <Tab className='menu_tab' icon={<ShoppingCartIcon />} label="ORDER" />
+                <Tab className='menu_tab' icon={<ShoppingCartIcon />} label="ORDER" onClick={() =>
+                {
+                    navigate("/order");
+                }}/>
             </Tabs>
         </>
     );

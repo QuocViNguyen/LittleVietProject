@@ -9,7 +9,7 @@ export function NavBar()
     {
         if (window.scrollY > 50)
         {
-            document.getElementById('NavBar').style.background = "rgba(255, 255, 255, 0.6)";
+            document.getElementById('NavBar').style.background = "rgba(255, 255, 255, 0.85)";
         }
         else
         {   
